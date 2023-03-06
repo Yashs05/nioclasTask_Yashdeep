@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_ques {
+  padding: 30px;
+  background-color: rgb(224 224 224);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .main_ques {
+    padding: 15px;
+  }
+}
